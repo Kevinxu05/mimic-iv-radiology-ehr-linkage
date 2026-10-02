@@ -1,4 +1,4 @@
-# MIMIC radiology–EHR linkage
+# Linking MIMIC-IV EHR Data with Radiology Reports
 
 The separate [MIMIC-IV CHD cohort project](https://github.com/Kevinxu05/mimic-chd-cohort) contains the ICD-defined CHD selection and cohort-specific extraction method.
 
