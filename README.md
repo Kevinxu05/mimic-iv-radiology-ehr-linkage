@@ -1,6 +1,6 @@
 # Linking MIMIC-IV EHR Data with Radiology Reports
 
-The separate [MIMIC-IV CHD cohort project](https://github.com/Kevinxu05/mimic-chd-cohort) contains the ICD-defined CHD selection and cohort-specific extraction method.
+The separate [MIMIC-IV CHD cohort project](https://github.com/Kevinxu05/mimic-iv-chd-cohort) contains the ICD-defined CHD selection and cohort-specific extraction method.
 
 Python pipeline linking **MIMIC-IV-Note v2.2 radiology reports** to **MIMIC-IV v3.1 patients and hospital admissions**, with one output row per source report and an audit of linkage outcomes.
 
