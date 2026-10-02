@@ -1,5 +1,9 @@
 # MIMIC radiology–EHR linkage
 
+## CHD cohort extraction
+
+Use [build_chd_cohort.py](build_chd_cohort.py) to select patients with at least one ICD-9 diagnosis in 745–747 or ICD-10 diagnosis in Q20–Q28 and export separate patient, diagnosis, procedure, admission and note CSVs. See [CHD_METHOD.md](CHD_METHOD.md) for the selection rules, reproducible commands, output definitions, validation and limitations. The local run selected **4,528 unique patients**. Generated patient-level files remain local.
+
 Python pipeline linking **MIMIC-IV-Note v2.2 radiology reports** to **MIMIC-IV v3.1 patients and hospital admissions**, with one output row per source report and an audit of linkage outcomes.
 
 ## Data access
