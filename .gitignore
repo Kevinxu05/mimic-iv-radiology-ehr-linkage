@@ -1,0 +1,21 @@
+# Restricted source data and patient-level outputs
+*.csv
+*.csv.gz
+*.gz
+*.sqlite
+*.sqlite3
+*.db
+*.parquet
+*.zip
+linkage_audit.json
+data/
+MIMIC_data/
+results/
+outputs/
+sample_1000/
+full_linkage/
+__pycache__/
+*.pyc
+.venv/
+.env
+
